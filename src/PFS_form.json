@@ -1,0 +1,417 @@
+{
+    "title": "PERSONAL FINANCIAL STATEMENT",
+    "pages": [
+        {
+            "name": "page1",
+            "elements": [
+                {
+                    "type": "text",
+                    "name": "U.S. SMALL BUSINESS ADMINISTRATION",
+                    "description": "As of",
+                    "hideNumber": true
+                },
+                {
+                    "type": "panel",
+                    "name": "panel1",
+                    "title": "SBA uses the information required by this Form 413 as one of a number of data sources in analyzing the repayment ability and creditworthiness of  an application for an SBA guaranteed 7(a) or 504 loan or, with respect to a surety bond, to assist in recovery in the event that the contractor  defaults on the contract. Submission of this information is required as part of your application for assistance. Failure to provide the information  would impact the agency’s decision on your application.  Complete this form for: (1) each proprietor; (2) general partner; (3) managing member of a limited liability company (LLC); (4) each owner of 20% or  more of the equity of the Applicant (including the assets of the owner’s spouse and any minor children); and (5) any person providing a guaranty on  the loan",
+                    "description": "Return completed form to:\nFor 7(a) loans: the Lender processing the application for SBA guaranty\nFor 504 loans: the Certified Development Company (CDC) processing the application for SBA guaranty\nFor Surety Bonds: the Surety Company or Agent processing the application for surety bond guarantee"
+                },
+                {
+                    "type": "text",
+                    "name": "Name",
+                    "titleLocation": "left",
+                    "hideNumber": true
+                },
+                {
+                    "type": "text",
+                    "name": "Business Phone",
+                    "startWithNewLine": false,
+                    "titleLocation": "left",
+                    "hideNumber": true
+                },
+                {
+                    "type": "text",
+                    "name": "Home Address",
+                    "titleLocation": "left",
+                    "hideNumber": true
+                },
+                {
+                    "type": "text",
+                    "name": "Home Phone",
+                    "startWithNewLine": false,
+                    "titleLocation": "left",
+                    "hideNumber": true
+                },
+                {
+                    "type": "text",
+                    "name": "City, State, & Zip Code",
+                    "hideNumber": true
+                },
+                {
+                    "type": "text",
+                    "name": "Business Name Of Applicant",
+                    "hideNumber": true
+                },
+                {
+                    "type": "multipletext",
+                    "name": "ASSETS",
+                    "description": "(Omit Cents)",
+                    "hideNumber": true,
+                    "items": [
+                        {
+                            "name": "Cash on Hand & in banks...$"
+                        },
+                        {
+                            "name": "Savings Accounts...$"
+                        },
+                        {
+                            "name": "IRA or Other Retirement Account...$"
+                        },
+                        {
+                            "name": "Accounts & Notes Receivable...$"
+                        },
+                        {
+                            "name": "Life Insurance – Cash Surrender Value Only...$"
+                        },
+                        {
+                            "name": "Stocks and Bonds...$"
+                        },
+                        {
+                            "name": "Real Estate...$"
+                        },
+                        {
+                            "name": "Automobiles...$"
+                        },
+                        {
+                            "name": "Other Personal Property...$"
+                        },
+                        {
+                            "name": "Other Assets....$"
+                        }
+                    ]
+                },
+                {
+                    "type": "multipletext",
+                    "name": "LIABILITIES",
+                    "startWithNewLine": false,
+                    "description": "(Omit Cents)",
+                    "hideNumber": true,
+                    "items": [
+                        {
+                            "name": "Accounts Payable...$"
+                        },
+                        {
+                            "name": "Notes Payable to Banks and Others...$"
+                        },
+                        {
+                            "name": "Installment Account (Auto)t...$"
+                        },
+                        {
+                            "name": "Installment Account (Other)...$"
+                        },
+                        {
+                            "name": "Loan(s) Against Life Insurance...$"
+                        },
+                        {
+                            "name": "Mortgages on Real Estate...$"
+                        },
+                        {
+                            "name": "Unpaid Taxes..$"
+                        },
+                        {
+                            "name": "Other Liabilities...$"
+                        },
+                        {
+                            "name": "Total Liabilities....$"
+                        },
+                        {
+                            "name": "Net Worth...$"
+                        }
+                    ]
+                },
+                {
+                    "type": "multipletext",
+                    "name": "Section 1. Source of Income.",
+                    "description": "(Omit Cents)",
+                    "hideNumber": true,
+                    "items": [
+                        {
+                            "name": "Salary...$"
+                        },
+                        {
+                            "name": "Net Investment Income...$"
+                        },
+                        {
+                            "name": "Real Estate Income....$"
+                        },
+                        {
+                            "name": "Other Income (Describe below)*....$"
+                        }
+                    ]
+                },
+                {
+                    "type": "multipletext",
+                    "name": "question1",
+                    "startWithNewLine": false,
+                    "title": "Contingent Liabilities",
+                    "description": "(Omit Cents)",
+                    "hideNumber": true,
+                    "items": [
+                        {
+                            "name": "As Endorser or Co-Maker...$"
+                        },
+                        {
+                            "name": "Legal Claims & Judgments.....$"
+                        },
+                        {
+                            "name": "Provision for Federal Income Tax....$"
+                        },
+                        {
+                            "name": "Other Special Debt....$"
+                        }
+                    ]
+                },
+                {
+                    "type": "comment",
+                    "name": "question3",
+                    "title": "Description of Other Income in Section 1.",
+                    "hideNumber": true
+                },
+                {
+                    "type": "panel",
+                    "name": "panel2",
+                    "title": "*Alimony or child support payments should not be disclosed in “Other Income” unless it is desired to have such payments counted toward total income"
+                },
+                {
+                    "type": "matrixdynamic",
+                    "name": "Section 2. Notes Payable to Banks and Others.",
+                    "description": "Section 3. Stocks and Bonds. (Use attachments if necessary. Each attachment must be identified as part of this statement and signed.)\nNumber of Shares Name of Securities Cost Market Value \nQuotation/Exchange\nDate of \nQuotation/Exchange T",
+                    "hideNumber": true,
+                    "columns": [
+                        {
+                            "name": "Names and Addresses of  Noteholder(s)",
+                            "cellType": "text"
+                        },
+                        {
+                            "name": "Original  Balance",
+                            "cellType": "text"
+                        },
+                        {
+                            "name": "Current  Balance",
+                            "cellType": "text"
+                        },
+                        {
+                            "name": "Payment  Amount",
+                            "cellType": "text"
+                        },
+                        {
+                            "name": "Frequency  (monthly, etc.)",
+                            "cellType": "text"
+                        },
+                        {
+                            "name": "How Secured or Endorsed  Type of Collateral",
+                            "cellType": "text"
+                        }
+                    ],
+                    "choices": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "cellType": "text",
+                    "allowAddRows": false,
+                    "allowRemoveRows": false,
+                    "rowCount": 5
+                },
+                {
+                    "type": "matrixdynamic",
+                    "name": "Section 3. Stocks and Bonds.",
+                    "startWithNewLine": false,
+                    "description": "(Use attachments if necessary. Each attachment must be identified as part of this statement and signed.)\nNumber of Shares Name of Securities Cost Market Value \n",
+                    "hideNumber": true,
+                    "columns": [
+                        {
+                            "name": "Number of Shares",
+                            "cellType": "text"
+                        },
+                        {
+                            "name": "Name of Securities",
+                            "cellType": "text"
+                        },
+                        {
+                            "name": "Cost",
+                            "cellType": "text"
+                        },
+                        {
+                            "name": "Market Value  Quotation/Exchange",
+                            "cellType": "text"
+                        },
+                        {
+                            "name": "Date of  Quotation/Exchange",
+                            "cellType": "text"
+                        },
+                        {
+                            "name": "Total Value",
+                            "cellType": "text"
+                        }
+                    ],
+                    "choices": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "cellType": "text",
+                    "allowAddRows": false,
+                    "allowRemoveRows": false,
+                    "rowCount": 5
+                },
+                {
+                    "type": "matrixdynamic",
+                    "name": "Section 4. Real Estate Owned.",
+                    "description": "(List each parcel separately. Use attachment if necessary. Each attachment must be identified as a part of this statement \nand signed.)",
+                    "hideNumber": true,
+                    "columns": [
+                        {
+                            "name": "column1",
+                            "cellType": "expression"
+                        },
+                        {
+                            "name": "Property A",
+                            "cellType": "text"
+                        },
+                        {
+                            "name": "Property B",
+                            "cellType": "text"
+                        },
+                        {
+                            "name": "Property C",
+                            "cellType": "text"
+                        }
+                    ],
+                    "choices": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "cellType": "text",
+                    "allowAddRows": false,
+                    "allowRemoveRows": false,
+                    "rowCount": 5
+                },
+                {
+                    "type": "comment",
+                    "name": "question2",
+                    "title": "Section 5. Other Personal Property and Other Assets.",
+                    "description": " (Describe, and, if any is pledged as security, state name and address of lien \nholder, amount of lien, terms of payment and, if delinquent, describe delinquency.)",
+                    "hideNumber": true,
+                    "rows": 0
+                },
+                {
+                    "type": "comment",
+                    "name": "question4",
+                    "title": "Section 6. Unpaid Taxes. ",
+                    "description": "(Describe in detail as to type, to whom payable, when due, amount, and to what property, if any, a tax \nlien attaches.)",
+                    "hideNumber": true
+                },
+                {
+                    "type": "comment",
+                    "name": "question5",
+                    "title": "Section 7. Other Liabilities.",
+                    "description": "(Describe in detail.)",
+                    "hideNumber": true,
+                    "rows": 0
+                },
+                {
+                    "type": "comment",
+                    "name": "question6",
+                    "title": " Section 8. Life Insurance Held. \n",
+                    "description": "(Give face amount and cash surrender value of policies – name of insurance company and \nBeneficiaries.)",
+                    "hideNumber": true,
+                    "rows": 3
+                },
+                {
+                    "type": "panel",
+                    "name": "panel4",
+                    "elements": [
+                        {
+                            "type": "panel",
+                            "name": "panel5",
+                            "title": "CERTIFICATION:",
+                            "description": "(to be completed by each person submitting the information requested on this form and the spouse of any 20% or \nmore owner when spousal assets are included) "
+                        }
+                    ],
+                    "description": "I authorize the SBA/Lender/Surety Company to make inquiries as necessary to verify the accuracy of the statements made and to\ndetermine my creditworthiness."
+                },
+                {
+                    "type": "panel",
+                    "name": "panel3",
+                    "description": "By signing this form, I certify under penalty of criminal prosecution that all information on this form and any additional supporting \ninformation submitted with this form is true and complete to the best of my knowledge. I understand that SBA or its participating \nLenders or Certified Development Companies or Surety Companies will rely on this information when making decisions regarding an \napplication for a loan or a surety bond. I further certify that I have read the attached statements required by law and executive order."
+                },
+                {
+                    "type": "signaturepad",
+                    "name": "Signature",
+                    "hideNumber": true,
+                    "height": 100
+                },
+                {
+                    "type": "text",
+                    "name": "question8",
+                    "title": "Date",
+                    "hideNumber": true,
+                    "inputType": "date"
+                },
+                {
+                    "type": "text",
+                    "name": "question9",
+                    "startWithNewLine": false,
+                    "title": "Social Security No.",
+                    "hideNumber": true,
+                    "inputType": "number"
+                },
+                {
+                    "type": "text",
+                    "name": "question10",
+                    "startWithNewLine": false,
+                    "title": "Printed Name",
+                    "hideNumber": true
+                },
+                {
+                    "type": "signaturepad",
+                    "name": "question7",
+                    "title": "Signature",
+                    "hideNumber": true,
+                    "height": 100
+                },
+                {
+                    "type": "text",
+                    "name": "question11",
+                    "title": "Date",
+                    "hideNumber": true,
+                    "inputType": "date"
+                },
+                {
+                    "type": "text",
+                    "name": "question12",
+                    "startWithNewLine": false,
+                    "title": "Social Security No.",
+                    "hideNumber": true,
+                    "inputType": "number"
+                },
+                {
+                    "type": "text",
+                    "name": "question13",
+                    "startWithNewLine": false,
+                    "title": "Printed Name",
+                    "hideNumber": true
+                }
+            ],
+            "description": "7(a) / 504 LOANS AND SURETY BONDS"
+        }
+    ]
+}
